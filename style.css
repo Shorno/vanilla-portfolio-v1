@@ -1,0 +1,136 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2rem 12.5rem;
+    background: #FFF8F3;
+    overflow: hidden;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+/*nav section*/
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    align-items: center;
+}
+
+.nav-item__name {
+    font-size: 45px;
+    color: #181818;
+    font-weight: 800;
+}
+
+.nav-item-highlight {
+    color: #FD6E0A;
+}
+
+.nav__button, .hero-button__cv {
+    font-size: 20px;
+    width: 150px;
+    height: 64px;
+    font-weight: 700;
+    background-color: #FD6E0A;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+
+/*hero section*/
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12rem;
+}
+
+.hero-text__sub {
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.hero-text__title {
+    margin-top: 0.5rem;
+    font-size: 85px;
+    color: #181818;
+    font-weight: 700;
+}
+.hero-text__paragraph {
+    margin-top: 1.25rem;
+    font-size: 18px;
+    color: #757575;
+    width: 50%;
+}
+
+.hero-button{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+
+}
+
+.hero-button__cv{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+
+.hero-button__contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    font-size: 20px;
+    width: 160px;
+    height: 64px;
+    font-weight: 700;
+    background-color: #fff;
+    color: #FD6E0A;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+}
+
+
+.hero-image__bg{
+    position: absolute;
+    z-index: -10;
+    bottom: 0;
+    right: 0;
+}
+
+.hero-image__dev{
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    right: 0;
+}
+
+.hero-text__background{
+    color: rgba(24, 24, 24, 0.15);
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 33px;
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 22rem;
+    left: -20rem;
+}

@@ -233,6 +233,8 @@ li {
 .skills-cards {
     display: flex;
     justify-content: space-between;
+    background:red ;
+    flex-shrink: 1;
 }
 
 .skills-card {
@@ -244,7 +246,7 @@ li {
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
-    padding: 2rem
+    padding: 2rem;
 }
 
 

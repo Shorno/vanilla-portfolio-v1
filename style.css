@@ -233,8 +233,6 @@ li {
 .skills-cards {
     display: flex;
     justify-content: space-between;
-    background:red ;
-    flex-shrink: 1;
 }
 
 .skills-card {
@@ -266,4 +264,82 @@ li {
     font-style: normal;
     font-weight: 400;
     line-height: 28px; /* 175% */
+}
+
+
+/*resume section*/
+
+
+.resume-section {
+    width: 1200px;
+    display: grid;
+    margin: 5rem auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.course-title {
+    color: #474747;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0.5rem;
+}
+
+.resume-section__heading {
+    margin-top: 25rem;
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+}
+
+.resume-section__sub {
+    color: #474747;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+
+.resume-heading {
+    color: #474747;
+    font-size: 25px;
+
+}
+
+.university_name {
+    color: #757575;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.course_details {
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+
+.education, .experience {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.resume-border {
+    width: 558px;
+    height: 1px;
+    background: #D1D1D1;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
 }
